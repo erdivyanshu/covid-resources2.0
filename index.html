@@ -12,7 +12,7 @@
     <link rel="icon" type="image/png/" sizes="32X39" href="img/tab.png">
 
     <!-- video added as background -->
-    <video src="b1.mp4" autoplay loop playsinline muted></video>
+    <video src="b2.mp4" autoplay loop playsinline muted></video>
 
     <title>COVID-19</title>
   </head>
@@ -52,8 +52,8 @@
                   </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="/gov.html">Gov/WHO</a>
-                  <a class="dropdown-item" href="/plasma.html">Plasma</a>
                   <a class="dropdown-item" href="/vaccine.html">Vaccine</a>
+                  <a class="dropdown-item" href="/plasma.html">Plasma</a>
                 </div>
                 </li>
             <li class="nav-item">
@@ -114,7 +114,7 @@
 
          <!-- feedback start here    -->
 <p>
-  <button class="btn btn-outline-warning btn-lg" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  <button class="btn btn-warning btn-lg" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
     Feedback
   </button>
 </p>
@@ -144,28 +144,66 @@
 </div>
     <!-- feedback end -->
 
+<!-- coronameter start here -->
+<div class="container p-3 mb-2 divy">
+  <div class="wrapper">
+    <h1 style="text-align: center;color: white;padding: 0px; background-color: dark;">COVID-19 LIVE TRACKER
+        <hr><span id="today" style="font-size: 15px;"></span>
+    </h1>
+    <br>
+    <div class="statistic">
+        <div class="box_wrapper" >
+          <div class="box" style="color: red" >
+            <h2>Total Cases</h2><br>
+            <p id="total_cases" style="font-weight: bold;"></p>
+          </div>
+          <div class="box" style="color:blue" >
+                <h2>Active Cases</h2><br>
+                <p id="active_cases"> </p>
+            </div>
+
+            <div class="box" style="color: lime" >
+                <h2>Total Recovery</h2><br>
+                <p id="total_recovered"> </p>
+            </div>
+
+            <div class="box" style="color: hotpink">
+                <h2>Today's Cases</h2><br>
+                <p id="new_case"> </p>
+            </div>
+
+            <div class="box" style="color: red" >
+                <h2>Total Death</h2><br>
+                <p id="total_death"> </p>
+            </div>
+        </div>
+    </div>
+  </div> 
+</div>  
+    
+<!-- corona meter end here -->
 
 
 <!-- Team details start-->
 
-  <div class="container shadow-lg p-3 mb-5 bg-dark rounded"> 
+  <div class="container-fluid shadow p-3 mb-0 bg-dark rounded"> 
     <div class="h1 text-center">Team-Webworm</div><hr>
      <div class="row">
-       <div class="col-lg-3 text-center">
-       <a href="https://github.com/erdivyanshu" target="_blank"><img  src="/img/div.jpg"class="bd-placeholder-img rounded-circle" width="140" height="140" /></a>
+       <div class="col-lg-2 text-center">
+       <a href="https://github.com/erdivyanshu" target="_blank"><img  src="/img/div.jpg"class="bd-placeholder-img rounded-circle" width="100" height="100" /></a>
          <h4>Divyanshu Yadav</h4>
          <p>(Team Leader)</p>  
        </div><!-- /.col-lg-4 -->
-                 <div class="col-lg-3 text-center">
-                   <a href="https://github.com/riyaa10" target="_blank"><img src="/img/riya.jpg"class="bd-placeholder-img rounded-circle" width="140" height="140" /></a>
+                 <div class="col-lg-2 text-center">
+                   <a href="https://github.com/riyaa10" target="_blank"><img src="/img/riya.jpg"class="bd-placeholder-img rounded-circle" width="100" height="100" /></a>
                    <h4>Riya Singh</h4>  
                  </div><!-- /.col-lg-4 -->
-                 <div class="col-lg-3 text-center">
-                   <a href="https://github.com/ayushias0203" target="_blank"><img src="/img/ayu.jpeg" class="bd-placeholder-img rounded-circle" width="140" height="140" /></a>
+                 <div class="col-lg-2 text-center">
+                   <a href="https://github.com/ayushias0203" target="_blank"><img src="/img/ayu.jpeg" class="bd-placeholder-img rounded-circle" width="100" height="100" /></a>
                    <h4>Ayushi Shukla</h4> 
                  </div><!-- /.col-lg-4 -->
-                 <div class="col-lg-3 text-center">
-                   <a href="https://github.com/amandev02" target="_blank"><img src="/img/aman1.jpeg"class="bd-placeholder-img rounded-circle" width="140" height="140" /></a>
+                 <div class="col-lg-2 text-center">
+                   <a href="https://github.com/amandev02" target="_blank"><img src="/img/aman1.jpeg"class="bd-placeholder-img rounded-circle" width="100" height="100" /></a>
                      <h4>Aman Raj</h4>        
                    </div><!-- /.col-lg-4 -->
          
@@ -173,49 +211,12 @@
              </div>
       <!-- team detail end here -->
 
-<!-- coronameter start here -->
-<div class="container-fluid mb-12 bg-dark">
-      <div class="wrapper">
-        <h1 style="text-align: center;color: white;padding: 0px; background-color: dark;">COVID-19 LIVE TRACKER
-            <hr><span id="today" style="font-size: 15px;"></span>
-        </h1>
-        <br>
-        <div class="statistic">
-            <div class="box_wrapper" >
-              <div class="box" style="color: red" >
-                <h2>Total Cases</h2><br>
-                <p id="total_cases" style="font-weight: bold;"></p>
-              </div>
-              <div class="box" style="color:blue" >
-                    <h2>Active Cases</h2><br>
-                    <p id="active_cases"> </p>
-                </div>
 
-                <div class="box" style="color: lime" >
-                    <h2>Total Recovery</h2><br>
-                    <p id="total_recovered"> </p>
-                </div>
-
-                <div class="box" style="color: hotpink">
-                    <h2>Today's Cases</h2><br>
-                    <p id="new_case"> </p>
-                </div>
-
-                <div class="box" style="color: red" >
-                    <h2>Total Death</h2><br>
-                    <p id="total_death"> </p>
-                </div>
-            </div>
-        </div>
-      </div> 
-    </div>  
-        
-<!-- corona meter end here -->
 
 
 <!-- Footer design -->
  
-<footer class="container-fluid shadow-lg p-3 mb-10 bg-dark">
+<footer class="container-fluid shadow-lg p-3 bg-dark">
   <p class="float-right">
    <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
       <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>

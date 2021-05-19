@@ -25,6 +25,7 @@ nav {
   align-items: center;
   justify-content: center;
   color: rgb(216, 137, 19);
+ 
 }
 .container .h1 {
   color: rgb(226, 255, 220);
@@ -58,9 +59,9 @@ nav {
 }
 .box:hover {
   transform: translate(0, -20px);
-  box-shadow: 0px 0px 28px 0px black;
+  box-shadow: 0px 0px 20px 0px black;
   background-color: #fafafa;
-  border-radius: 50px;
+  border-radius: 30px;
   color: black;
 }
 
@@ -111,6 +112,10 @@ nav {
 }
 
 /* coronameter css design end */
+.row{
+  color: rgb(216, 137, 19);
+  
+}
 
 /* footer css */
 .container-fluid {
@@ -118,23 +123,7 @@ nav {
   color: rgb(226, 255, 220);
 }
 
-/* @media (min-width: 576px) {
-  .footer {
-    max-width: 540px;
-  }
+.divy{
+  /* background-color: cadetblue; */
+  background-image: linear-gradient(to right, #8ed2d4, #9b15e9);
 }
-@media (min-width: 768px) {
-  .footer {
-    max-width: 720px;
-  }
-}
-@media (min-width: 992px) {
-  .footer {
-    max-width: 960px;
-  }
-}
-@media (min-width: 1200px) {
-  .footer {
-    max-width: 1140px;
-  }
-} */ 
