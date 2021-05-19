@@ -1,0 +1,132 @@
+/* poppins font family */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    object-fit: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    opacity: 0.95;
+  }
+  
+
+body
+{
+    background:#fff;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width:400px;
+    border-radius: 20px;
+} 
+
+/* card css design */
+
+.card{
+    border-radius: 20px;
+    height:600px;
+    /* #0084ff, #00f2ff */
+    /* #c4930c, #ba7fc2 */
+    background-image: linear-gradient(to right, #c4930c, #ba7fc2);
+    border:none;
+    overflow: hidden;
+    box-shadow: 0 5px 8px #414141;
+    z-index:0;
+    box-sizing: border-box;
+}
+.circle{
+    position:absolute;
+    bottom:-230px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    /* #fff */
+    background:rgb(236, 226, 164);
+    clip-path:circle(50%);
+    height:700px;
+    width:700px;
+    z-index:-1;
+    overflow:hidden;
+}
+
+/* form css design */
+
+.myHed{
+    margin-top:30px;
+    font-size: 32px;
+    margin-bottom:10px;
+    font-weight:700;
+    background-image: linear-gradient(to right, #c4930c, #ba7fc2);
+    color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.far{
+    font-size:40px;
+}
+
+/* lock and user icon design */
+
+.fas{
+    position:relative;
+    display:block;
+    left:-87px;
+    top:30px;
+    color:rgb(255,255,255);
+}
+
+/* submit button design */
+.button{
+    width:200px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ba7fc2,#c4930c);
+    color:#fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Input design css */
+
+.myInput{
+    width:220px;
+    padding:10px;
+    padding-left:40px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ffa600, #8f5f06);
+    color:#fff;
+    border:none;
+    display: block;
+}
+.myInput::placeholder{
+    color:#fff;
+    opacity: 0.6;
+}
+.myInput:focus{
+    border:none;
+    outline:none;
+}
+.check_1{
+    font-weight: 500;
+    color:rgb(85,85,85);
+    font-size: 15px;
+    margin:15px auto;
+    cursor: pointer;
+}
+
+@media (max-width: 768px){
+    .container{
+        max-width: 100%;
+    }
+}
+
+  
