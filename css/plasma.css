@@ -13,6 +13,33 @@
     font-size: 23px;
   }
   
+  .container h2{
+      margin:50px auto;
+      color:rgb(150, 6, 6);
+
+    }
+    .container p{
+      font-size:19px;
+      font-family: 'Montserrat', sans-serif; 
+      margin:10px auto;
+    }
+     .container-fluid{
+      /* display:flex;
+      flex-wrap: nowrap;
+      flex-direction: row; */
+      margin: 50px auto;
+    } 
+    .ayushi{
+      width:100%;
+    }
+    .ayu1{
+      width:100%;
+      justify-content: center; 
+    }
+    .ayu1 li{
+      color:black;
+      font-size:19px;
+    }
   
   
   
